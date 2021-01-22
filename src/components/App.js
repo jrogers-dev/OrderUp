@@ -1,6 +1,7 @@
 import React from 'react';
+import Restaurant from './Restaurant';
 
-class App extends React.component {
+class App extends React.Component {
   render(){
     return(
       <div>
