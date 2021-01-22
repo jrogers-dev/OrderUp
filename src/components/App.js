@@ -5,7 +5,7 @@ class App extends React.component {
     return(
       <div>
         <div> <Restaurant /></div>
-        {/* <Order />
+        {/* <Order/Cart />
         <MenuAdmin/> */}
       </div>
     )

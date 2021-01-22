@@ -33,7 +33,9 @@ const menuItems ={
       ' delicious pancakes with mapple syrup and strawberries ',
     price: $17,
     status: 'unavailable'
-  }
+  },
+
+  
 
 
 }
