@@ -4,7 +4,7 @@ const menuItems ={
     image: '/images/avocadotoast.jpg',
     desc:
       'toasted rye bread with mexican avocado',
-    price: $13,
+    price: 13,
     status: 'available'
   },
 
@@ -13,7 +13,7 @@ const menuItems ={
     image: '/images/medbreakfast.jpg',
     desc:
       'cheese board with olives',
-    price: $15,
+    price: 15,
     status: 'available'
   },
 
@@ -22,7 +22,7 @@ const menuItems ={
     image: '/images/nycbagel.jpg',
     desc:
       ' sesame bagel with cream cheese, and  smoked atlantic salmon',
-    price: $17,
+    price: 17,
     status: 'unavailable'
   },
 
@@ -31,7 +31,7 @@ const menuItems ={
     image: '/images/pancakes.jpg',
     desc:
       ' delicious pancakes with mapple syrup and strawberries ',
-    price: $17,
+    price: 17,
     status: 'unavailable'
   },
 
