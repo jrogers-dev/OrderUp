@@ -1,13 +1,13 @@
 import React from 'react';
+import CartContainer from './Cart/CartContainer';
 import Restaurant from './Restaurant';
 
 class App extends React.Component {
   render(){
     return(
       <div>
-        <div> <Restaurant /></div>
-        {/* <Order/Cart />
-        <MenuAdmin/> */}
+        <Restaurant />
+        <CartContainer />
       </div>
     )
   }
