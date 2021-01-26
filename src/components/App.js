@@ -5,9 +5,9 @@ import RestaurantContainer from './restaurant-info/RestaurantContainer';
 class App extends React.Component {
   render(){
     return(
-      <div>
+      <div class="grid grid-cols-3 h-screen w-screen">
         <RestaurantContainer />
-        {/* <MenuContainer /> */}
+        <div id="delete-me">{/* <MenuContainer /> */}</div>
         <CartContainer />
       </div>
     )
