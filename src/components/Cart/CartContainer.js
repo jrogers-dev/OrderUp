@@ -9,7 +9,7 @@ export default class CartContainer extends Component {
 
     render() {
         return (
-            <div className="cart-container" style={{float:"right"}}>
+            <div className="cart-container">
                 <Cart items={this.state.items}/>
             </div>
         )
