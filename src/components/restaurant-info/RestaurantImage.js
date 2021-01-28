@@ -1,10 +1,15 @@
 import React from 'react';
 
 class RestaurantImage extends React.Component {
+  constructor(props) {
+    super(props);
+
+  }
+
   render(){
     return(
-      <div class="flex bg-green-400 justify-center items-center">
-        <img alt="Fake Image" src="http://fake.image.com"/>
+      <div class="flex justify-center items-center">
+        <img alt="Restaurant" src="images/restaurant1.jpg" />
       </div>
     )
   }
