@@ -12,7 +12,7 @@ class RestaurantContainer extends React.Component {
     return (
       <div class="grid grid-rows-2">
         {/*<RestaurantInfo/>*/}
-        <RestaurantImage image={this.props.data.image} />
+        {/*<RestaurantImage image={this.props.data.image} />*/}
       </div>
     )
   }
