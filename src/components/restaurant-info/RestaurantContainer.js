@@ -11,8 +11,8 @@ class RestaurantContainer extends React.Component {
   render() {
     return (
       <div class="grid grid-rows-2">
-        <RestaurantInfo data={this.props.data.restaurant1}/>
-        <RestaurantImage image={this.props.data.image} />
+        {/*<RestaurantInfo/>*/}
+        {/*<RestaurantImage image={this.props.data.image} />*/}
       </div>
     )
   }
