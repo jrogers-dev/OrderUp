@@ -9,7 +9,7 @@ class RestaurantImage extends React.Component {
   render(){
     return(
       <div class="flex justify-center items-center">
-        <img alt="Restaurant" src="images/restaurant1.jpg" />
+        <img class="p-1 outline-white" alt="Restaurant" src={this.props.image} />
       </div>
     )
   }

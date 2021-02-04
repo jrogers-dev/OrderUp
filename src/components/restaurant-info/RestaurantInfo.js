@@ -3,34 +3,22 @@ import React from 'react';
 class RestaurantInfo extends React.Component {
   constructor(props) {
     super(props);
-
   }
 
 
   render(){
     return(
       <div class="flex flex-col justify-center items-center">
-        <div><span>{this.props.data.name}</span></div>
-        <div><span>{this.props.data.address}</span></div>
-        <div><span>{this.props.data.phone}</span></div>
-        <div>
-          <br />
-          <center>Hours</center>
-          <span>Mon: {this.props.data.hours.mon}</span>
-          <br />
-          <span>Tue: {this.props.data.hours.tue}</span>
-          <br />
-          <span>Wed: {this.props.data.hours.wed}</span>
-          <br />
-          <span>Thu: {this.props.data.hours.thu}</span>
-          <br />
-          <span>Fri: {this.props.data.hours.fri}</span>
-          <br />
-          <span>Sat: {this.props.data.hours.sat}</span>
-          <br />
-          <span>Sun: {this.props.data.hours.sun}</span>
-          <br />
-        </div>
+        <div><span class="text-4xl">{this.props.restaurantData.restaurant_name}</span></div>
+        <br />
+        <div><span class="text-xl">{this.props.restaurantData.address.street}</span></div>
+        <div><span class="text-xl">{this.props.restaurantData.address.city}, {this.props.restaurantData.address.state} {this.props.restaurantData.address.postal_code}</span></div>
+        <div><span class="text-xl">{this.props.restaurantData.restaurant_phone}</span></div>
+        <br />
+        <div><span class="text-xl underline bold"><a href={this.props.restaurantData.restaurant_website}>Website</a></span></div>
+        <br />
+        <div><span class="text-xl">{this.props.restaurantData.hours}</span></div>
+        <div><span class="text-xl">{this.props.restaurantData.price_range}</span></div>
       </div>
     )
   }
